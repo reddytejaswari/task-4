@@ -1,0 +1,92 @@
+/* General reset */
+body {
+  background-color: #f8f9fa;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+.site-header {
+  background-color: #0d6efd;
+  color: white;
+  border-bottom: 3px solid #0b5ed7;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.site-header h1 {
+  font-size: 28px;
+  margin: 0;
+  font-weight: 600;
+}
+.site-header .subtitle {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-top: 5px;
+}
+
+/* Container */
+.container {
+  max-width: 850px;
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* Search Form */
+.search-form input[type="text"] {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+.search-form button {
+  border-radius: 8px;
+}
+
+/* Post Cards */
+.post-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.post-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+}
+.post-card h2 {
+  color: #0d6efd;
+  margin-bottom: 8px;
+  font-size: 22px;
+}
+.post-card p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+.post-card .btn-group {
+  margin-top: 10px;
+}
+
+/* Footer */
+.footer {
+  background: #f1f1f1;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 14px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    margin: 10px;
+    padding: 15px;
+  }
+  .post-card h2 {
+    font-size: 18px;
+  }
+  .site-header h1 {
+    font-size: 22px;
+  }
+}
